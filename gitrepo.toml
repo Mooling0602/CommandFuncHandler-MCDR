@@ -1,0 +1,10 @@
+[meta]
+name = "CommandFuncHandler-MCDR"
+author = [{ "github" = "Mooling0602" }]
+maintainers = []
+description = "A handler for Minecraft commands and functions."
+main-branch = "main"
+license = "GPL-3.0"
+
+[platform]
+remote-hoster = [{ "github" = "https://github.com" }]

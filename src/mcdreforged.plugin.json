@@ -1,0 +1,17 @@
+{
+    "id": "command_func_handler",
+    "version": "0.0.1",
+    "name": "CommandFuncHandler",
+    "description": {
+        "en_us": "A handler for Minecraft commands and functions.",
+        "zh_cn": "为 Minecraft 命令和函数设计的处理器。"
+    },
+    "author": "Mooling0602",
+    "link": "https://github.com",
+    "dependencies": {
+        "mcdreforged": ">=2.14.1"
+    },
+    "resources": [
+        "lang"
+    ]
+}
