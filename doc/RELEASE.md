@@ -30,6 +30,8 @@ This is a MCDR plugin repository, so use git tags to mark plugin versions.
 
 - If something wrong happens, you may need re-push the tag, the release commit's SHA may change also, you should sync the change before push again.
 
+- Create or remove a empty `.release` file if nothing to commit when release.
+
 ## How CI do
 
 It will be triggered whenever any new qualifying commit is pushed to GitHub, and build artifacts then.
