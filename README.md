@@ -15,7 +15,7 @@ CommandFuncHandler 和其他同类型插件都不受 MCDReforged 官方支持，
 如果未使用其他服务端处理器类型的插件，此插件应能够开箱即用，若遇到问题可以尝试检查配置文件。
 > 配置文件一般位于`config/command_func_handler/config.yml`。
 
-插件理论上可以通过 HandlerManager 插件（仍开发中）的"HandlerMixin 规范"兼容其他第三方服务端处理器插件，但需要插件进行适配，且不保证能够都正常工作。
+插件理论上可以通过 [HandlerManager](https://github.com/Mooling0602/HandlerManager-MCDR) 插件（仍开发中）的"HandlerMixin 规范"兼容其他第三方服务端处理器插件，但需要插件进行适配，且不保证能够都正常工作。
 
 如果你发现插件未能按预期工作，可以使用 `!!command_func_handler debug` 命令开启调试模式，查看插件的日志输出以诊断问题。
 

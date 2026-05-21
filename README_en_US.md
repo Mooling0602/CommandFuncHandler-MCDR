@@ -15,7 +15,7 @@ Configure the server handler in `config.yml` under the MCDR working directory. S
 If you are not using any other plugins of the server-handler type, this plugin should work out of the box. If you encounter problems, try checking the configuration file.
 > The configuration file is usually located at `config/command_func_handler/config.yml`.
 
-In theory, the plugin can be made compatible with other third-party server-handler plugins through the "HandlerMixin specification" of the HandlerManager plugin (still in development), but those plugins must be adapted, and compatibility is not guaranteed.
+In theory, the plugin can be made compatible with other third-party server-handler plugins through the "HandlerMixin specification" of the [HandlerManager](https://github.com/Mooling0602/HandlerManager-MCDR) plugin (still in development), but those plugins must be adapted, and compatibility is not guaranteed.
 
 If you find that the plugin is not working as expected, you can use the `!!command_func_handler debug` command to enable debug mode and view the plugin's log output for troubleshooting.
 

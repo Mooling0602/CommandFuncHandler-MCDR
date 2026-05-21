@@ -6,6 +6,7 @@ build-backend = "hatchling.build"
 name = "command-func-handler"
 dynamic = ["version"]
 description = "A handler for Minecraft commands and functions."
+authors = [{ name = "Mooling0602", email = "clemooling@outlook.top" }]
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = ["mcdreforged>=2.15.7"]
