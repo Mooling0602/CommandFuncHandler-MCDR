@@ -82,7 +82,7 @@ jobs:
         run: uv sync --all-groups
 
       - name: Check code
-        run: uv run ./check.sh
+        run: ./check.sh
 
   pack:
     name: Build plugin
@@ -113,4 +113,3 @@ jobs:
           name: mcdr-plugin
           path: ./*.mcdr
           if-no-files-found: error
-
