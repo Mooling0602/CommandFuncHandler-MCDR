@@ -1,7 +1,7 @@
 import re
 from typing import Any, override
 
-from mcdreforged.api.all import PluginEvent, ServerInformation, PluginServerInterface
+from mcdreforged.api.all import PluginEvent, PluginServerInterface, ServerInformation
 from mcdreforged.handler.impl import AbstractMinecraftHandler
 from mcdreforged.handler.impl.abstract_minecraft_handler import (
     _does_mc_version_has_execute_command,

@@ -15,12 +15,12 @@ from mcdreforged.handler.impl import (
     VanillaHandler,
 )
 
-from command_func_handler.config import get_config, DefaultConfig, disable_handler
+from command_func_handler.config import DefaultConfig, disable_handler, get_config
 from command_func_handler.mixin import (
     CommandFuncMixin,
+    handler_event_dispatcher,
     handler_generator,
     handler_name,
-    handler_event_dispatcher,
 )
 
 psi = ServerInterface.psi()

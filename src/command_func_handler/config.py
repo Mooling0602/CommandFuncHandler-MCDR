@@ -1,4 +1,5 @@
 from mcdreforged.api.all import PluginServerInterface, Serializable
+
 from command_func_handler.mixin import handler_name
 
 
