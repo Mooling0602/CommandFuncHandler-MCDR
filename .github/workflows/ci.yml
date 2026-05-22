@@ -82,7 +82,7 @@ jobs:
         run: uv sync --all-groups
 
       - name: Check code
-        run: ./check.sh
+        run: uv run ./check.sh
 
   pack:
     name: Build plugin
